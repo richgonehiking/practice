@@ -35,19 +35,50 @@ font-family: 'Quicksand', sans-serif;
   list-style: none;
 }
 
-/* 
- 
- Text
- 
- */
-
 .navBar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
   font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
   /* color: var(--main); */
   color: #5a7c83;
+  background-color: var(--accentDark);
+}
+
+.navBar:hover .navLink {
+  display: block;
+}
+
+.navToggle {
+  width: 1em;
+  margin: 0.75em 0 0.5em 0.5em;
+}
+
+.navLink {
+  display: flex;
+  padding: 0.5em 1em 0.5em 0.5em;
+  align-items: center;
+  background-color: var(--main);
+  /* display: none; */
+}
+
+.navIcon {
+  width: 1.75em;
+  margin-right: 0.5em;
+}
+
+.navLink a {
+  color: var(--accentDark);
+}
+
+.navLink a:hover {
+  color: var(--accent);
 }
 
 .logo {
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
