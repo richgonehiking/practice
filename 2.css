@@ -1,0 +1,17 @@
+/* Variables */
+
+:root {
+  --main: #212638;
+  --accent: #746e8c;
+  --accentLight: #fff5cb;
+}
+/* Base Styles */
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Offside', cursive;
+  text-decoration: none;
+  list-style: none;
+}
