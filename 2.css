@@ -4,6 +4,8 @@
   --main: #212638;
   --accent: #746e8c;
   --accentLight: #fff5cb;
+  --txtPlain: 'Open Sans', sans-serif;
+  --txtMain: 'Offside', cursive;
 }
 /* Base Styles */
 
@@ -11,7 +13,31 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Offside', cursive;
   text-decoration: none;
+  font-family: var(--txtPlain);
   list-style: none;
+}
+
+body {
+  background-color: var(--main);
+}
+#menu {
+  display: none;
+}
+.menuToggle {
+  cursor: pointer;
+}
+
+.menuToggle svg {
+  fill: var(--accentLight);
+  transition: transform 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.menuToggle:hover svg {
+  transform: scale(1.25);
+}
+
+#menu:checked ~ .menuToggle svg {
+  fill: var(--accent);
+  transform: translateY(15px) rotate(135deg) scale(1.25);
 }
