@@ -1,28 +1,5 @@
-<svg width="82" height="84" viewBox="0 0 82 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_ddd)">
-<circle cx="41" cy="35" r="33" fill="white"/>
-</g>
-<path d="M25.5379 17.5788C27.4905 15.6261 30.6564 15.6261 32.609 17.5788L57.6877 42.6575C59.6403 44.6101 59.6403 47.7759 57.6877 49.7285L56.462 50.9542C54.5094 52.9068 51.3436 52.9068 49.391 50.9542L24.3123 25.8755C22.3596 23.9229 22.3596 20.757 24.3123 18.8044L25.5379 17.5788Z" fill="#B71D1D"/>
-<path d="M24.3122 49.7285C22.3596 47.7759 22.3596 44.6101 24.3122 42.6574L49.391 17.5787C51.3436 15.6261 54.5094 15.6261 56.462 17.5787L57.6877 18.8044C59.6403 20.757 59.6403 23.9228 57.6877 25.8754L32.609 50.9542C30.6563 52.9068 27.4905 52.9068 25.5379 50.9542L24.3122 49.7285Z" fill="#B71D1D"/>
-<defs>
-<filter id="filter0_ddd" x="0" y="0" width="82" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="3"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="8"/>
-<feGaussianBlur stdDeviation="4"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="effect2_dropShadow" result="effect3_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow" result="shape"/>
-</filter>
-</defs>
+<svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="33" cy="33" r="33" fill="white"/>
+<path d="M17.5379 15.5788C19.4905 13.6261 22.6564 13.6261 24.609 15.5788L49.6877 40.6575C51.6403 42.6101 51.6403 45.7759 49.6877 47.7285L48.462 48.9542C46.5094 50.9068 43.3436 50.9068 41.391 48.9542L16.3123 23.8755C14.3596 21.9229 14.3596 18.757 16.3123 16.8044L17.5379 15.5788Z" fill="#B71D1D"/>
+<path d="M16.3122 47.7285C14.3596 45.7759 14.3596 42.6101 16.3122 40.6574L41.391 15.5787C43.3436 13.6261 46.5094 13.6261 48.462 15.5787L49.6877 16.8044C51.6403 18.757 51.6403 21.9228 49.6877 23.8754L24.609 48.9542C22.6563 50.9068 19.4905 50.9068 17.5379 48.9542L16.3122 47.7285Z" fill="#B71D1D"/>
 </svg>
