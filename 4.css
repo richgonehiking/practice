@@ -5,3 +5,83 @@
   --colorPlainDark: #222;
   --colorPlainLight: #fff;
 }
+
+/* base styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header styles */
+
+header {
+  width: 100vw;
+  height: 40vh;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
+  background: linear-gradient(
+      40deg,
+      rgba(255, 15, 0, 0.7) 15%,
+      rgba(0, 133, 255, 0) 100%
+    ),
+    url(./4/crowd.jpg);
+  background-size: 150%;
+  background-position: bottom;
+}
+
+.mainLogo {
+  width: 60vw;
+  margin-top: 10vh;
+  margin-left: 18vw;
+}
+
+/* Main styles */
+main {
+  padding: 1.5rem 2.5rem;
+}
+
+main h2 {
+  color: var(--colorMain);
+  font-size: 1.75rem;
+  line-height: 130%;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0.9rem;
+}
+
+main p {
+  color: var(--colorPlainDark);
+  font-size: 1rem;
+  line-height: 140%;
+  margin-bottom: 1rem;
+}
+
+main a {
+  color: var(--colorMain);
+}
+
+/* Nav Styles */
+
+nav {
+  position: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.44) 15%,
+    #ffffff 50%
+  );
+  bottom: 0;
+  height: 15vh;
+  width: 100vw;
+}
+
+.navToggleOpen {
+  position: relative;
+  bottom: -3vh;
+  left: 75vw;
+}
