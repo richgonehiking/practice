@@ -86,8 +86,8 @@ nav {
 
 .navToggleOpen {
   position: relative;
-  bottom: -3vh;
-  left: 75vw;
+  bottom: -5vh;
+  left: 80vw;
   cursor: pointer;
 }
 
